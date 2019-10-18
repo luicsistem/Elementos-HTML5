@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Etiquetas Html5</title>
+    <!-- link enlaza css externo  -->
     <link rel="stylesheet" href="estilos.css" />
   </head>
   <body>
@@ -12,7 +13,9 @@
       <!-- HEADER  -->
       <header class="header">
         <a href="/" class="logo">logo</a>
+        <!-- nav contiene enlaces de navegacion  -->
         <nav class="nav">
+          <!-- listas desordenadas  -->
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Our team</a></li>
@@ -53,8 +56,10 @@
             voluptates aspernatur magni, ipsam provident cum perspiciatis
             pariatur rerum, aliquam sequi iste omnis dignissimos.
           </p>
+          <!-- figure representa una figura ilustrada como parte del documento  -->
           <figure>
             <img src="./images/team.jpg" alt="team" width="300px" />
+            <!-- figcaption legenda de una figura -->
             <figcaption>Team</figcaption>
           </figure>
         </section>
@@ -63,13 +68,16 @@
           <h2>Projects</h2>
           <hr />
           <h3>Historia de la Programación</h3>
+          <!-- em es texto enfatizado -- strong texto importante  -->
           <p>
-                Para crear un <em> programa </em> , y que la computadora lo
-            interprete y ejecute las instrucciones escritas en él, debe
-            escribirse en un lenguaje de programación.
+            Para crear un <em> programa </em> , y que la
+            <strong>computadora</strong> lo interprete y ejecute las
+            instrucciones escritas en él, debe escribirse en un lenguaje de
+            programación.
           </p>
           <p>Lorem ipsum dolor sit amet.</p>
           <h3>Lenguajes de programacion que trabajamos :</h3>
+          <!-- listas de definiciones  -->
           <dl>
             <dt>JavaScript</dt>
             <dd>Se utiliza principalmente al lado del cliente</dd>
@@ -79,18 +87,46 @@
             <dd>Sus scripts son interpretados por el servidor</dd>
           </dl>
           <h3>Mejores editores de texto para Programar</h3>
+          <!-- listas ordenadas  -->
           <ol>
             <li>Visual Studio Code</li>
             <li>Atom</li>
             <li>Sublime Text</li>
             <li>Brackets</li>
           </ol>
+          <h3>HTML Errores tipicos</h3>
+          <!-- iframe documento html embebido  -->
+          <iframe
+            width="400"
+            height="200"
+            src="https://www.youtube.com/embed/OWrKuAyoT7A"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <h3>audio</h3>
+           <!-- audio sonido o stream de audio  -->
+          <audio
+            controls
+            src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg"
+          >
+            Your browser does not support the <code>audio</code> element.
+          </audio>
+          <h3>Video Fast & Furios</h3>
+           <!-- video  -->
+          <video src="./video/video.mp4" controls  width="360"
+          height="190" poster="./images/fast.jpg">
+              Tu navegador no admite el elemento <code>video</code>.
+            </video>
+          <h3><a href="tablas.html" target="_blank"></a>Tablas</h3>
         </section>
         <!-- CONTACT  -->
         <section class="contact">
           <h2>CONTACT</h2>
           <hr />
           <p>Lorem ipsum dolor sit amet.</p>
+          <!-- formulario puede ser enviado a un servidor  -->
           <form action="#">
             <fieldset>
               <legend>CONTÁCTANOS</legend>
@@ -117,7 +153,7 @@ Write something here</textarea
         </aside>
         <aside class="aside">
           <h4>Lenguajes de Programación HTML</h4>
-
+          <!-- blockquote contenido citado desde otra fuente  -->
           <blockquote cite="https://www.ecured.cu/Programaci%C3%B3n_Web">
             Este lenguaje de programación Web fue inventado por Tim Berners-Lee
             en 1986. El HTML combina el concepto de Hipertexto, que permite
@@ -129,6 +165,7 @@ Write something here</textarea
       </article>
       <!-- FOOTER  -->
       <footer class="footer">
+        <!-- address  seccion que contiene info de contacto  -->
         <address>
           <ul>
             <li>Calle Boston 666 - Los Olivos</li>
@@ -142,7 +179,7 @@ Write something here</textarea
       </footer>
     </div>
 
-    <!-- SCRIPT  -->
+    <!-- SCRIPT   -->
     <script src="app.js"></script>
   </body>
 </html>
