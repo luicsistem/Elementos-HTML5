@@ -26,6 +26,20 @@
  header li {
      margin-left:10px ;
  }
+table {
+    margin:  1.5em 0 ;
+    border-collapse: collapse;
+    width: 100%;
+}
+table td , th{
+    border: 1px solid #0000aa;
+}
+th  {
+    background: rgba(100, 97, 97, 0.233);
+}
+.t-compara{
+    text-decoration: none;
+}
 
 footer {
     background: #0096bb;
