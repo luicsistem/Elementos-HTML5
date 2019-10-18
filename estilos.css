@@ -40,7 +40,9 @@ th  {
 .t-compara{
     text-decoration: none;
 }
-
+progress {
+    background: #008080;
+}
 footer {
     background: #0096bb;
     padding: 10px 0;
